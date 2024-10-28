@@ -66,7 +66,8 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
-     * @param name
+     * Implementation.
+     * @param name is the user's name
      */
     @Override
     public void setCurrentUser(String name) {
@@ -74,7 +75,8 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
-     * @return
+     * Implementation.
+     * @return empty string
      */
     @Override
     public String getCurrentUser() {

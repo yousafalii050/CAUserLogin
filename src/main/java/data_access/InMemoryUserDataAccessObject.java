@@ -36,6 +36,7 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
     }
 
     /**
+     * Implementation.
      * @param name is the argument
      */
     @Override
@@ -44,7 +45,8 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
     }
 
     /**
-     * @return
+     * Implementation.
+     * @return user's username
      */
     @Override
     public String getCurrentUser() {
